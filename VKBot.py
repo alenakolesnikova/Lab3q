@@ -3,7 +3,7 @@ import time
 import datetime
 
 print('VKBot')
-session = vk.AuthSession('5723055', '+79281176518', 'игорьраянадяалена', scope='messages')
+session = vk.AuthSession('5723055', '+79281176518', 'run7run7', scope='messages')
 api = vk.API(session)
 lastcomand = ''
 date_time_string = datetime.datetime.now().strftime('[%Y-%m-%d %H:%M:%S]')
